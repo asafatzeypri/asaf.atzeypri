@@ -1,0 +1,359 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+
+
+
+
+
+
+/* opening */
+
+
+body{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: rgb(0,124,189);
+    background: linear-gradient(0deg, rgba(0,124,189,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+
+html{
+    scroll-behavior: smooth;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    color: black;
+}
+
+/* gearsecond */
+ a, .btn{
+    transition: all 300ms ease;
+ }
+
+ /* gearthird */
+ nav, 
+ .links{
+    display: flex;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+
+
+}
+
+.links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: solid
+    
+}
+
+
+
+
+.title {
+    
+    font-size:large;
+    gap: 2rem;
+    font-size: 1.5rem;
+    text-decoration: solid;
+    font-weight: bold;
+    
+    
+}
+ a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-decoration-color:white ;
+ }
+ 
+ a:hover{
+    color:rgb(72, 255, 0);
+    text-decoration:none ;
+    text-underline-offset: 1rem;
+ }
+
+
+/* burger */
+#burger {
+    display: none;
+
+}
+.burger-menu {
+    position: relative;
+    display: inline-block;
+
+
+}
+
+
+.burger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.burger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3 ease-in-out;
+}
+
+
+.burgerlinks{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+
+
+.burgerlinks a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+
+
+
+}
+
+.burgerlinks li {
+    list-style: none;
+    
+
+
+
+}
+.burgerlinks.open{
+    max-height: 300px;
+
+
+}
+
+
+.burger-icon.open span:first-child {
+    transform: rotate(-45deg) translate(10px, -5x);
+
+
+}
+.burger-icon.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.burger-icon.open span:last-child {
+    transform: none;
+
+}
+
+.burger-icon.open span:first-child {
+    opacity: 1;
+}
+
+.burger-icon.open span:first-child {
+    transform: none;
+    
+}
+
+ .burgerlinks a:hover{
+    color:rgb(72, 255, 0);
+    text-decoration:none ;
+    text-underline-offset: 1rem;
+ }
+
+
+
+/* mysummary */
+
+
+
+
+.background{
+    
+    padding: 1%;
+    background-attachment:fixed ;
+    background-color: rgb(255, 255, 255);
+    
+    
+    
+    
+    
+    
+}
+
+.icon {
+    margin: 2%;
+    height: 120px;
+    width: 30px;    
+    border-radius: 50%;
+     
+}
+
+
+.me3{
+    margin-top: 300px;
+    height: 200px;
+    width: 220px;
+}
+
+    
+.open {
+    
+    text-align: center;
+    font-size: 33;
+    font-weight: bolder;
+ 
+}
+
+
+.summary {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 100px;
+    font-size: 23;
+    margin-top: 20px;
+
+}
+
+
+/* myopen */
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .profile-image {
+    width: 80px; 
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%; 
+    width: 300px;
+    height: 300px;
+   
+  }
+  
+  .profile-text {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+
+img{
+    border-radius: 50%;   
+}
+
+
+.text_p1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.text_p2{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.text_p3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 33;
+
+}
+
+
+
+/* icons */
+
+.devicons{
+    margin-top: 69px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    
+ 
+}
+
+
+.butt{
+    color: black;
+    background-color: greenyellow;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    
+}
+
+
+.butt:hover{
+    background-color: black;
+    color: greenyellow;
+    cursor: pointer;
+    
+    
+
+}
+
+.butt-h{
+    color: black;
+    background-color: greenyellow;
+    height: 30px;
+    width: 200px;
+    border-radius: 30px;
+    
+    
+    
+
+}
+
+
+.butt-h:hover{
+    background-color: black;
+    color: greenyellow;
+    cursor: pointer;
+    
+
+}
+
+.buttflex{
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+
+
+
+
